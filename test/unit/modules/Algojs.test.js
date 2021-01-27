@@ -4,25 +4,25 @@ import {
     isoNum,
     myFct,
     goalTotal,
-    GrasshopperOrder,
-    getFirstValue,
-    sortByLength,
-    minMax,
-    filterArray,
-    animals,
-    lastItem,
-    reverseArray,
-    addition,
-    boolToString,
-    filterArrayInt,
-    arrayOfMultiples,
-    convert,
-    returnNegative,
-    simpleLoop,
-    getArea,
-    makesTen,
-    addUp,
-    matchHouses,
+    // GrasshopperOrder,
+    // getFirstValue,
+    // sortByLength,
+    // minMax,
+    // filterArray,
+    // animals,
+    // lastItem,
+    // reverseArray,
+    // addition,
+    // boolToString,
+    // filterArrayInt,
+    // arrayOfMultiples,
+    // convert,
+    // returnNegative,
+    // simpleLoop,
+    // getArea,
+    // makesTen,
+    // addUp,
+    // matchHouses,
 
 } from "../../../src/modules/Algojs";
 
@@ -31,7 +31,7 @@ test("---------isoNum---------", t => {
 
     t.test("isoNum", assert => {
         const message = "should create a function named isoNum Without Argument return true";
-        const expected = true;
+        const expected = 42;
         const actual = isoNum();
 
         assert.equal(actual, expected, message);
@@ -39,29 +39,29 @@ test("---------isoNum---------", t => {
     });
 });
 // --------------------------------------------------- Function with arguments -------------------------------------
-// test("---------myFct---------", t => {
+test("---------myFct---------", t => {
 
-//     t.test("myFct", assert => {
-//         const message = "should create a function With 2 Arguments and return sum : 91 ";
-//         const expected = 91;
-//         const actual = myFct(90, 1);
+    t.test("myFct", assert => {
+        const message = "should create a function With 2 Arguments and return sum : 91 ";
+        const expected = 91;
+        const actual = myFct(90, 1);
 
-//         assert.equal(actual, expected, message);
-//         assert.end();
-//     });
-// });
+        assert.equal(actual, expected, message);
+        assert.end();
+    });
+});
 // // -------------------------------------------------- Messi's Goal Total --------------------------------------
-// test("--------goalTotal---------", t => {
+test("--------goalTotal---------", t => {
 
-//     t.test("goalTotal", assert => {
-//         const message = "should return total of messi goals";
-//         const expected = 58;
-//         const actual = goalTotal(43, 10, 5);
+    t.test("goalTotal", assert => {
+        const message = "should return total of messi goals";
+        const expected = 58;
+        const actual = goalTotal(43, 10, 5);
 
-//         assert.equal(actual, expected, message);
-//         assert.end();
-//     });
-// });
+        assert.equal(actual, expected, message);
+        assert.end();
+    });
+});
 // // ------------------------------------------------ Grasshopper Order of Operations ----------------------------------------
 // test("---------GrasshopperOrder-----------", t => {
 
